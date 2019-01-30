@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListInline.vue renders 1`] = `<ul class="list-inline"></ul>`;
+
+exports[`ListInline.vue renders with alignment 1`] = `<ul class="list-inline list-inline--center"></ul>`;
+
+exports[`ListInline.vue renders with dividers 1`] = `<ul class="list-inline list-inline--divided"></ul>`;
+
+exports[`ListInline.vue renders with size 1`] = `<ul class="list-inline list-inline--small"></ul>`;
