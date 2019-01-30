@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListStacked.vue renders 1`] = `<ul class="list-stacked"></ul>`;
+
+exports[`ListStacked.vue renders with dividers 1`] = `<ul class="list-stacked list-stacked--divided"></ul>`;
+
+exports[`ListStacked.vue renders with size 1`] = `<ul class="list-stacked list-stacked--small"></ul>`;
