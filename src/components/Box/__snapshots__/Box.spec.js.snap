@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Box.vue renders 1`] = `<div class="box"></div>`;
+
+exports[`Box.vue renders with size 1`] = `<div class="box box--small"></div>`;
+
+exports[`Box.vue renders with variant 1`] = `<div class="box box--primary"></div>`;

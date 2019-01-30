@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Btn.vue renders as anchor without type 1`] = `<a class="btn"></a>`;
+
+exports[`Btn.vue renders as block 1`] = `<button type="button" class="btn btn--block"></button>`;
+
+exports[`Btn.vue renders as button with type by default 1`] = `<button type="button" class="btn"></button>`;
+
+exports[`Btn.vue renders as disabled 1`] = `<button disabled="disabled" type="button" class="btn btn--disabled"></button>`;
+
+exports[`Btn.vue renders as disabled with custom class 1`] = `<button disabled="disabled" type="button" class="btn disabled"></button>`;
+
+exports[`Btn.vue renders as input with type submit 1`] = `<input type="submit" class="btn">`;
+
+exports[`Btn.vue renders with size 1`] = `<button type="button" class="btn btn--small"></button>`;
+
+exports[`Btn.vue renders with variant 1`] = `<button type="button" class="btn btn--primary"></button>`;
+
+exports[`Btn.vue renders without disabled attribute on anchors 1`] = `<a class="btn btn--disabled"></a>`;

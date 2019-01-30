@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmbedResponsive.vue renders 1`] = `<div class="embed-responsive" style="padding-top: 56.25%;"><iframe src="#"></iframe></div>`;
+
+exports[`EmbedResponsive.vue renders with custom ratio 1`] = `<div class="embed-responsive" style="padding-top: 75%;"><iframe src="#"></iframe></div>`;

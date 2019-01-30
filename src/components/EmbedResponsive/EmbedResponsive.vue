@@ -1,5 +1,5 @@
 <template>
-  <div class="embed-responsive" :style="{ paddingTop: `${1 / this.ratio * 100}%` }">
+  <div class="embed-responsive" :style="styleObject">
     <slot></slot>
   </div>
 </template>
@@ -12,6 +12,14 @@ export default {
     ratio: {
       type: Number,
       default: 16 / 9,
+    },
+  },
+
+  computed: {
+    styleObject() {
+      return {
+        paddingTop: `${(1 / this.ratio) * 100}%`,
+      };
     },
   },
 };

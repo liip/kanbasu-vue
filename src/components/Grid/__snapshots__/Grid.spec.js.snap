@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid.vue renders 1`] = `<div class="grid"></div>`;
+
+exports[`Grid.vue renders as multiline 1`] = `<div class="grid grid--multiline"></div>`;
+
+exports[`Grid.vue renders reversed 1`] = `<div class="grid grid--rev"></div>`;
+
+exports[`Grid.vue renders with size 1`] = `<div class="grid grid--small"></div>`;
+
+exports[`Grid.vue renders with x alignement 1`] = `<div class="grid grid--center"></div>`;
+
+exports[`Grid.vue renders with y alignement 1`] = `<div class="grid grid--middle"></div>`;
