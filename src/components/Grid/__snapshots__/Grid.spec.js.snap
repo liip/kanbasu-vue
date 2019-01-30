@@ -8,6 +8,6 @@ exports[`Grid.vue renders reversed 1`] = `<div class="grid grid--rev"></div>`;
 
 exports[`Grid.vue renders with size 1`] = `<div class="grid grid--small"></div>`;
 
-exports[`Grid.vue renders with x alignement 1`] = `<div class="grid grid--center"></div>`;
+exports[`Grid.vue renders with x alignment 1`] = `<div class="grid grid--center"></div>`;
 
-exports[`Grid.vue renders with y alignement 1`] = `<div class="grid grid--middle"></div>`;
+exports[`Grid.vue renders with y alignment 1`] = `<div class="grid grid--middle"></div>`;

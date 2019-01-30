@@ -16,7 +16,7 @@ describe('Grid.vue', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  it('renders with x alignement', () => {
+  it('renders with x alignment', () => {
     const wrapper = shallowMount(Grid, {
       propsData: {
         xAlign: 'center',
@@ -25,7 +25,7 @@ describe('Grid.vue', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  it('renders with y alignement', () => {
+  it('renders with y alignment', () => {
     const wrapper = shallowMount(Grid, {
       propsData: {
         yAlign: 'middle',
