@@ -1,29 +1,29 @@
-# kanbasu-vue
+# Kanbasu Vue
 
-## Project setup
-```
-npm install
-```
+[Kanbasu](https://kanbasu.liip.ch/) components as [Vue](https://vuejs.org/) components.
 
-### Compiles and hot-reloads for development
-```
-npm start
+## Install
+
+```sh
+npm install @kanbasu/vue
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+## Usage
+
+Import all components:
+
+```js
+import Vue from 'vue';
+import KanbasuVue from '@kanbasu/vue';
+
+Vue.use(KanbasuVue);
 ```
 
-### Run your tests
-```
-npm test
-```
+Import specific components:
 
-### Lints and fixes files
-```
-npm run lint
-```
+```js
+import { Grid, GridItem } from '@kanbasu/vue';
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Vue.use(Grid);
+Vue.use(GridItem);
+```
