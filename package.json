@@ -48,5 +48,6 @@
     "src/components/**/*.vue"
   ],
   "license": "MIT",
-  "main": "./dist/kanbasuVue.common.js"
+  "main": "./dist/kanbasuVue.common.js",
+  "repository": "github:liip/kanbasu-vue"
 }
