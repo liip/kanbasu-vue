@@ -5,7 +5,7 @@ module.exports = {
   serverPort: 3000,
   defaultExample: false,
   components: 'src/components/**/*.vue',
-  require: [path.join(__dirname, 'src/scss/main.scss')],
+  require: [path.join(__dirname, 'assets/scss/main.scss')],
   skipComponentsWithoutExample: true,
   usageMode: 'expand',
 };
