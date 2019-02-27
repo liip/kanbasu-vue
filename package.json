@@ -38,7 +38,10 @@
   },
   "files": [
     "dist/*",
-    "src/*"
+    "!dist/demo.html",
+    "src/main.js",
+    "src/components/index.js",
+    "src/components/**/*.vue"
   ],
   "license": "MIT",
   "main": "./dist/kanbasuVue.common.js"
