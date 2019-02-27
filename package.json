@@ -1,5 +1,6 @@
 {
   "name": "kanbasu-vue",
+  "description": "Kanbasu components as Vue components.",
   "version": "0.1.1",
   "scripts": {
     "build": "vue-cli-service build --target lib --name kanbasuVue ./src/main.js",
@@ -49,5 +50,14 @@
   ],
   "license": "MIT",
   "main": "./dist/kanbasuVue.common.js",
-  "repository": "github:liip/kanbasu-vue"
+  "repository": "github:liip/kanbasu-vue",
+  "homepage": "https://liip.github.io/kanbasu-vue/",
+  "bugs": {
+    "url": "https://github.com/liip/kanbasu-vue/issues"
+  },
+  "keywords": [
+    "kanbasu",
+    "vue",
+    "components"
+  ]
 }
