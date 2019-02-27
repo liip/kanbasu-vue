@@ -1,6 +1,6 @@
 {
   "name": "@kanbasu/vue",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "scripts": {
     "build": "vue-cli-service build --target lib --name kanbasuVue ./src/main.js",
     "validate": "vue-cli-service lint --no-fix",
@@ -10,7 +10,9 @@
     "styleguide:build": "vue-cli-service styleguidist:build",
     "test:unit": "vue-cli-service test:unit",
     "test:unit:dev": "npm run test:unit -- --watch",
-    "test": "npm run validate && npm run test:unit"
+    "test": "npm run validate && npm run test:unit",
+    "deploy": "./scripts/deploy-styleguide.sh",
+    "release": "release-it"
   },
   "dependencies": {
     "vue": "^2.5.21"
@@ -25,10 +27,12 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^23.6.0",
+    "conventional-changelog-cli": "^2.0.12",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "kanbasu": "^2.4.0",
     "node-sass": "^4.11.0",
+    "release-it": "^10.2.0",
     "sass-loader": "^7.1.0",
     "vue-cli-plugin-styleguidist": "^0.1.10",
     "vue-template-compiler": "^2.5.21"
