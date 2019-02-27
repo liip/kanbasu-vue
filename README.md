@@ -5,7 +5,7 @@
 ## Install
 
 ```sh
-npm install @kanbasu/vue
+npm install kanbasu-vue
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ Import all components:
 
 ```js
 import Vue from 'vue';
-import KanbasuVue from '@kanbasu/vue';
+import KanbasuVue from 'kanbasu-vue';
 
 Vue.use(KanbasuVue);
 ```
@@ -22,7 +22,7 @@ Vue.use(KanbasuVue);
 Import specific components:
 
 ```js
-import { Grid, GridItem } from '@kanbasu/vue';
+import { Grid, GridItem } from 'kanbasu-vue';
 
 Vue.use(Grid);
 Vue.use(GridItem);
