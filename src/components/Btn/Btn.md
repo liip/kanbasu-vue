@@ -7,7 +7,7 @@
 ### Block button
 
 ```vue
-<btn variant="primary" :block="true">
+<btn variant="primary" block>
   Hello
 </btn>
 ```

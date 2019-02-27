@@ -1,5 +1,8 @@
 ```vue
-<grid xAlign="center" yAlign="middle" :multiline="true">
+const Vue = require('vue').default;
+Vue.component('grid-item', require('../GridItem').default);
+
+<grid xAlign="center" yAlign="middle" multiline>
   <grid-item :widths="{ default: '1/3' }">
     <box type="default" size="small">
       Grid Item

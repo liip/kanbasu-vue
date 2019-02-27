@@ -6,6 +6,7 @@ export const plugin = {
       Vue.component(component.name, component);
     });
   },
+  ...components,
 };
 
 export default plugin;

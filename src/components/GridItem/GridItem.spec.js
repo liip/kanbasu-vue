@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils';
-import GridItem from './GridItem.vue';
+import GridItem from './GridItem';
 
 describe('GridItem.vue', () => {
   it('renders', () => {
