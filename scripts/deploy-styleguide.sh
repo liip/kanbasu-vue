@@ -1,5 +1,5 @@
 #!/bin/bash
-git stash save
+git stash save -u
 git checkout -B gh-pages
 git add -f styleguide
 git commit -am "Rebuild styleguide"
