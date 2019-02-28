@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'embed-responsive',
+  name: 'EmbedResponsive',
 
   props: {
     ratio: {

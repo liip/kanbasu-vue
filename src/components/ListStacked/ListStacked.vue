@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'list-stacked',
+  name: 'ListStacked',
 
   props: {
     /**

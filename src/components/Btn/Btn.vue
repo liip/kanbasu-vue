@@ -1,12 +1,17 @@
 <template>
-  <component :is="tag" :class="classNames" v-bind="attributes" v-on="$listeners">
+  <component
+    :is="tag"
+    :class="classNames"
+    v-bind="attributes"
+    v-on="$listeners"
+  >
     <slot></slot>
   </component>
 </template>
 
 <script>
 export default {
-  name: 'btn',
+  name: 'Btn',
 
   inheritAttrs: false,
 

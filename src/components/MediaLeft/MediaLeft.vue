@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: 'media-left',
+  name: 'MediaLeft',
 };
 </script>

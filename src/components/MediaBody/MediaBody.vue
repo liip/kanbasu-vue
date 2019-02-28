@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: 'media-body',
+  name: 'MediaBody',
 };
 </script>

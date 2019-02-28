@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'grid-item',
+  name: 'GridItem',
 
   props: {
     /**

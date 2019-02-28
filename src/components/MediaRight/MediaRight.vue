@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: 'media-right',
+  name: 'MediaRight',
 };
 </script>
