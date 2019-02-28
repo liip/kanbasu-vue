@@ -1,3 +1,12 @@
+## [0.1.2](https://github.com/liip/kanbasu-vue/compare/0.1.1...0.1.2) (2019-02-28)
+
+
+### Features
+
+* Declare components name in camelCase ([6e65845](https://github.com/liip/kanbasu-vue/commit/6e65845))
+
+
+
 ## [0.1.1](https://github.com/liip/kanbasu-vue/compare/0.1.0...0.1.1) (2019-02-27)
 
 
