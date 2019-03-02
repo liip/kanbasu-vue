@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Media.vue renders 1`] = `<div class="media">slot</div>`;
+
+exports[`Media.vue renders as responsive 1`] = `<div class="media media--responsive"></div>`;
+
+exports[`Media.vue renders with alignment 1`] = `<div class="media media--middle"></div>`;
+
+exports[`Media.vue renders with size 1`] = `<div class="media media--small"></div>`;
