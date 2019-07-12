@@ -1,7 +1,7 @@
 {
   "name": "kanbasu-vue",
   "description": "Kanbasu components as Vue components.",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "scripts": {
     "build": "vue-cli-service build --target lib --name kanbasuVue ./src/main.js",
     "validate": "vue-cli-service lint --no-fix",
