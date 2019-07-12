@@ -1,5 +1,6 @@
 import Box from './Box';
 import Btn from './Btn';
+import Container from './Container';
 import EmbedResponsive from './EmbedResponsive';
 import Grid from './Grid';
 import GridItem from './GridItem';
@@ -13,6 +14,7 @@ import MediaRight from './MediaRight';
 export default {
   Box,
   Btn,
+  Container,
   EmbedResponsive,
   Grid,
   GridItem,

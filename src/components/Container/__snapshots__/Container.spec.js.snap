@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container.vue renders 1`] = `<div class="container"></div>`;
+
+exports[`Container.vue renders with variant 1`] = `<div class="container container--small"></div>`;
